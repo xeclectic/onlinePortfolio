@@ -1935,6 +1935,38 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Header"
 });
@@ -6438,7 +6470,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n*[data-v-1f42fb90]{\n    padding: 0;\n    margin: 0;\n}\n#header-bg[data-v-1f42fb90]{\n    width: 100%;\n    height: 100vh;\n}\n", ""]);
+exports.push([module.i, "\n*[data-v-1f42fb90] {\n  padding: 0;\n  margin: 0;\n}\n#name[data-v-1f42fb90] {\n  color: white;\n  position: relative;\n  bottom: 40vh;\n  font-size: 30px;\n}\n#name[data-v-1f42fb90]:hover {\n  color: #cc034d;\n}\n#link1[data-v-1f42fb90],\n#link2[data-v-1f42fb90],\n#link3[data-v-1f42fb90],\n#link4[data-v-1f42fb90] {\n  color: white;\n  margin-right: 10px;\n}\n#link1[data-v-1f42fb90]:hover,\n#link2[data-v-1f42fb90]:hover,\n#link3[data-v-1f42fb90]:hover,\n#link4[data-v-1f42fb90]:hover {\n  background-image: linear-gradient(45deg, #022f5a, #cc034d);\n}\n#top-accent[data-v-1f42fb90] {\n  position: absolute;\n  width: 100%;\n  height: 1vh;\n  background-image: linear-gradient(45deg, #022f5a, #cc034d);\n}\n#head-links[data-v-1f42fb90] {\n  left: 20vh;\n}\n#avatar[data-v-1f42fb90] {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  left: 650px;\n  top: 30vh;\n}\n#avatar-bg[data-v-1f42fb90] {\n  position: absolute;\n  width: 210px;\n  height: 210px;\n  border-radius: 50%;\n  background-color: #022f5a;\n  left: 43vw;\n  top: 30vh;\n}\n#header-bg[data-v-1f42fb90] {\n  width: 100%;\n  height: 100vh;\n}\n#scroll[data-v-1f42fb90] {\n  position: relative;\n  font-size: 15px;\n  bottom: 20vh;\n  left: 77vh;\n  opacity: 0.6;\n  color: white;\n}\n.arrow[data-v-1f42fb90] {\n  position: absolute;\n  top: 92%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.arrow span[data-v-1f42fb90] {\n  display: block;\n  width: 30px;\n  height: 30px;\n  border-bottom: 5px solid white;\n  border-right: 5px solid white;\n  transform: rotate(45deg);\n  margin: -10px;\n  -webkit-animation: animate-data-v-1f42fb90 2s infinite;\n          animation: animate-data-v-1f42fb90 2s infinite;\n}\n.arrow span[data-v-1f42fb90]:nth-child(2) {\n  -webkit-animation-delay: -0.2s;\n          animation-delay: -0.2s;\n}\n.arrow span[data-v-1f42fb90]:nth-child(3) {\n  -webkit-animation-delay: -0.4s;\n          animation-delay: -0.4s;\n}\n@-webkit-keyframes animate-data-v-1f42fb90 {\n0% {\n    opacity: 0;\n    transform: rotate(45deg) translate(-20px, -20px);\n}\n50% {\n    opacity: 1;\n}\n100% {\n    opacity: 0;\n    transform: rotate(45deg) translate(20px, 20px);\n}\n}\n@keyframes animate-data-v-1f42fb90 {\n0% {\n    opacity: 0;\n    transform: rotate(45deg) translate(-20px, -20px);\n}\n50% {\n    opacity: 1;\n}\n100% {\n    opacity: 0;\n    transform: rotate(45deg) translate(20px, 20px);\n}\n}\n", ""]);
 
 // exports
 
@@ -38223,13 +38255,93 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("img", {
-        attrs: {
-          id: "header-bg",
-          src:
-            "https://i.pinimg.com/originals/d2/2f/95/d22f95ac7ea5f78ae39169cfdb77aa8a.jpg"
-        }
-      })
+      _c("section", { attrs: { id: "header" } }, [
+        _c("div", { attrs: { id: "top-accent" } }, [
+          _c("br"),
+          _vm._v(" "),
+          _c("div", { staticClass: "row", attrs: { id: "head-links" } }, [
+            _c("p", { staticClass: "col l7 center-align" }, [
+              _vm._v("__________")
+            ]),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "col l1 center-align",
+                attrs: { id: "link1", href: "#" }
+              },
+              [_vm._v("Projects")]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "col l1 center-align",
+                attrs: { id: "link2", href: "#" }
+              },
+              [_vm._v("About")]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "col l1 center-align",
+                attrs: { id: "link3", href: "#" }
+              },
+              [_vm._v("Skills")]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "col l1 center-align",
+                attrs: { id: "link4", href: "#" }
+              },
+              [_vm._v("Contact")]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { attrs: { id: "avatar-bg" } }),
+        _vm._v(" "),
+        _c("img", {
+          attrs: {
+            id: "avatar",
+            src:
+              "https://66.media.tumblr.com/b48361b922751a12e4c3acf29fa62ffe/d5ee1569c5b8213c-d3/s540x810/636aadd979179ea52e24ebfab80fb88246ab9567.jpg"
+          }
+        }),
+        _vm._v(" "),
+        _c("img", {
+          attrs: {
+            id: "header-bg",
+            src:
+              "https://i.pinimg.com/originals/d2/2f/95/d22f95ac7ea5f78ae39169cfdb77aa8a.jpg"
+          }
+        }),
+        _vm._v(" "),
+        _c(
+          "p",
+          { staticClass: "col l12 center-align", attrs: { id: "name" } },
+          [
+            _vm._v("\n      HI! I'M HAILEY FOSS\n      "),
+            _c("br"),
+            _vm._v("| junior full stack web developer |\n    ")
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", [
+          _c("p", { attrs: { id: "scroll" } }, [_vm._v("Check out my works")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "arrow" }, [
+            _c("span"),
+            _vm._v(" "),
+            _c("span"),
+            _vm._v(" "),
+            _c("span")
+          ])
+        ])
+      ])
     ])
   }
 ]
