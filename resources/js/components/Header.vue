@@ -5,8 +5,8 @@
         <br />
         <div class="row" id="head-links">
           <p class="col l7 center-align">__________</P>
-          <a id="link1" class="col l1 center-align" href="#">Projects</a>
-          <a id="link2" class="col l1 center-align" href="#">About</a>
+          <a href="#projects" id="link1" class="col l1 center-align">Projects</a>
+          <a id="link2" class="col l1 center-align" href="#aboutMe">About</a>
           <a id="link3" class="col l1 center-align" href="#">Skills</a>
           <a id="link4" class="col l1 center-align" href="#">Contact</a>
         </div>
