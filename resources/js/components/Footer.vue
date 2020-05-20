@@ -1,6 +1,9 @@
 <template>
     <div>
-        <p>this is the footer</p>
+        <img
+        id="bg"
+        src="https://i.pinimg.com/originals/d2/2f/95/d22f95ac7ea5f78ae39169cfdb77aa8a.jpg"
+      />
     </div>
 </template>
 
@@ -11,4 +14,8 @@ export default {
 </script>
 
 <style scoped>
+#bg{
+    position: relative;
+    width: 100%;
+}
 </style>
