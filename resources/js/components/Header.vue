@@ -7,8 +7,8 @@
           <p class="col l7 center-align">__________</P>
           <a href="#projects" id="link1" class="col l1 center-align">Projects</a>
           <a id="link2" class="col l1 center-align" href="#aboutMe">About</a>
-          <a id="link3" class="col l1 center-align" href="#">Skills</a>
-          <a id="link4" class="col l1 center-align" href="#">Contact</a>
+          <a id="link3" class="col l1 center-align" href="#codeImg">Skills</a>
+          <a id="link4" class="col l1 center-align" href="#bg">Contact</a>
         </div>
       </div>
       <div id="avatar-bg"></div>

@@ -1917,6 +1917,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Footer"
 });
@@ -6571,7 +6577,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#bg[data-v-61a7c374]{\n    position: relative;\n    width: 100%;\n}\n", ""]);
+exports.push([module.i, "\n#bg[data-v-61a7c374]{\n    position: relative;\n    width: 100%;\n}\n*[data-v-61a7c374],\n*[data-v-61a7c374]::before,\n*[data-v-61a7c374]::after {\n  box-sizing: border-box;\n}\n[data-v-61a7c374]:root{\n    --bg-color: #D8D8D8;\n}\nbody[data-v-61a7c374] {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n  width: 100vw;\n  height: 100vh;\n  color: white;\n  background-color: var(--bg-color);\n  font-family: 'Maitree', serif;\n}\nh1[data-v-61a7c374]{\n    position: relative;\n    bottom: 70vh;\n    left: 40vw;\n    font-size: 3em;\n    font-weight: normal;\n}\n\n/* title styles */\n.home-title span[data-v-61a7c374]{\n    position: relative;\n    color: white;\n    overflow: hidden;\n    display: block;\n    line-height: 1.2;\n}\n.home-title span[data-v-61a7c374]::after{\n    content: '';\n    position: absolute;\n    top: 0;\n    right: 0;\n    width: 100%;\n    height: 100%;\n    background-image: linear-gradient(45deg, #022f5a, #cc034d);\n    -webkit-animation: a-ltr-after-data-v-61a7c374 2s cubic-bezier(.77,0,.18,1) forwards;\n            animation: a-ltr-after-data-v-61a7c374 2s cubic-bezier(.77,0,.18,1) forwards;\n    transform: translateX(-101%);\n}\n.home-title span[data-v-61a7c374]::before{\n    content: '';\n    position: absolute;\n    top: 0;\n    right: 0;\n    width: 100%;\n    height: 100%;\n    background: var(--bg-color);\n    -webkit-animation: a-ltr-before-data-v-61a7c374 2s cubic-bezier(.77,0,.18,1) forwards;\n            animation: a-ltr-before-data-v-61a7c374 2s cubic-bezier(.77,0,.18,1) forwards;\n    transform: translateX(0);\n}\n.home-title span[data-v-61a7c374]:nth-of-type(1)::before,\n.home-title span[data-v-61a7c374]:nth-of-type(1)::after{\n    -webkit-animation-delay: 1s;\n            animation-delay: 1s;\n}\n.home-title span[data-v-61a7c374]:nth-of-type(2)::before,\n.home-title span[data-v-61a7c374]:nth-of-type(2)::after{\n    -webkit-animation-delay: 1.5s;\n            animation-delay: 1.5s;\n}\n@-webkit-keyframes a-ltr-after-data-v-61a7c374{\n0% {transform: translateX(-100%)}\n100% {transform: translateX(101%)}\n}\n@keyframes a-ltr-after-data-v-61a7c374{\n0% {transform: translateX(-100%)}\n100% {transform: translateX(101%)}\n}\n@-webkit-keyframes a-ltr-before-data-v-61a7c374{\n0% {transform: translateX(0)}\n100% {transform: translateX(200%)}\n}\n@keyframes a-ltr-before-data-v-61a7c374{\n0% {transform: translateX(0)}\n100% {transform: translateX(200%)}\n}\n#footer[data-v-61a7c374]{\n    width: 100%;\n    height: 30vh;\n    background-color: #171717;\n}\n", ""]);
 
 // exports
 
@@ -38429,7 +38435,15 @@ var staticRenderFns = [
           src:
             "https://i.pinimg.com/originals/d2/2f/95/d22f95ac7ea5f78ae39169cfdb77aa8a.jpg"
         }
-      })
+      }),
+      _vm._v(" "),
+      _c("h1", { staticClass: "home-title" }, [
+        _c("span", [_vm._v("Request a Quote")]),
+        _vm._v(" "),
+        _c("span", [_c("a", { attrs: { href: "#" } }, [_vm._v("Click here")])])
+      ]),
+      _vm._v(" "),
+      _c("div", { attrs: { id: "footer" } }, [_c("p", [_vm._v(" footer")])])
     ])
   }
 ]
@@ -38493,7 +38507,7 @@ var staticRenderFns = [
               "a",
               {
                 staticClass: "col l1 center-align",
-                attrs: { id: "link3", href: "#" }
+                attrs: { id: "link3", href: "#codeImg" }
               },
               [_vm._v("Skills")]
             ),
@@ -38502,7 +38516,7 @@ var staticRenderFns = [
               "a",
               {
                 staticClass: "col l1 center-align",
-                attrs: { id: "link4", href: "#" }
+                attrs: { id: "link4", href: "#bg" }
               },
               [_vm._v("Contact")]
             )
