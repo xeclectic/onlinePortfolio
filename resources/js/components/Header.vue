@@ -43,7 +43,7 @@
     <!-- Check out my works -->
     <div>
         <br/>
-        <p id="welcome" class="col l12 center-align">WELCOME</p>
+        <p data-aos="fade-up" id="welcome" class="col l12 center-align">WELCOME</p>
         <br/>
         <p id="welcome-text" class="col l12 center-align">
             I am a passionate web developer with a year of working in a challenging enviornment at Innotech

@@ -1,11 +1,29 @@
 <template>
   <div>
-      <div class="wrapper">
+      <div data-aos="fade-up" class="wrapper">
         <div class="card a"></div>
         <div class="card b"></div>
         <div class="card c"></div>
         <div class="card d"></div>
         </div>
+
+    <div id="gold" class="col l1 center-align">_______________</div>
+        <p id="skills" data-aos="fade-up" class="col l1 center-align">Skills</p>
+
+        <div class="wrapper-skill">
+            <img data-aos="fade-up" data-aos-duration="500"  src="https://img.icons8.com/color/32/000000/adobe-premiere-pro.png"/>
+            <p data-aos="fade-up" data-aos-duration="500" class="skills-text"> Premiere Pro</p>
+            <img data-aos="fade-up" data-aos-duration="800" src="https://img.icons8.com/color/32/000000/adobe-photoshop.png"/>
+            <p data-aos="fade-up" data-aos-duration="800" class="skills-text">Photoshop</p>
+            <img data-aos="fade-up" data-aos-duration="1100" src="https://img.icons8.com/color/32/000000/compact-camera.png"/>
+            <p data-aos="fade-up" data-aos-duration="1100" class="skills-text">Video/Photography</p>
+            <img data-aos="fade-up" data-aos-duration="1400" src="https://img.icons8.com/color/32/000000/system-task.png"/>
+            <p data-aos="fade-up" data-aos-duration="1400" class="skills-text">HTML, CSS, PHP, MySQL, JavaScript</p>
+            <img data-aos="fade-up" data-aos-duration="1700" src="https://img.icons8.com/color/32/000000/api-settings.png"/>
+            <p data-aos="fade-up" data-aos-duration="1700" class="skills-text">Rest API</p>
+            <img data-aos="fade-up" data-aos-duration="1000" src="https://img.icons8.com/color/32/000000/source-code.png"/>
+            <p data-aos="fade-up" data-aos-duration="1000" class="skills-text">Vue, vuejs, Laravel, Bootstrap, Materialize, Jquery, JS Frameworks/Libraries</p>
+            </div>
 </div>
 </template>
 
@@ -76,5 +94,30 @@ export default {
     .d:hover {
         background: url("https://64.media.tumblr.com/a60c4b735777ce398d6ade29829c6642/9bca164bfb878a80-50/s640x960/aaefe4a9682f4d98500d8610191cf64e91a43cab.gifv") no-repeat;
         background-size: 742px 445px;
+    }
+
+    #gold{
+        color: #D4B156;
+        margin-bottom: 50px;
+    }
+    #skills{
+        color:lightgray;
+        font-size: 40px;
+        letter-spacing: 6px;
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 100px;
+    }
+
+    .wrapper-skill {
+        display: grid;
+        margin: 100px;
+        grid-gap: 100px;
+        grid-template-columns: repeat(auto-fill, 100px ) ;
+    }
+
+    .skills-text{
+        color: lightgray;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
     }
 </style>
