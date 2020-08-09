@@ -1986,6 +1986,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Header"
 });
@@ -2035,6 +2046,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -6553,7 +6566,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n*[data-v-1f42fb90] {\n  padding: 0;\n  margin: 0;\n}\n#goldBreak[data-v-1f42fb90] {\n    position: relative;\n    color:#D4B156;\n    width: 10vw;\n    font-size: 3vh;\n    left: 44rem;\n}\n#name[data-v-1f42fb90] {\n  color: white;\n  position: relative;\n  bottom: 40vh;\n  font-size: 30px;\n  letter-spacing: 4px;\n  font-family: 'Antic Slab', serif;\n}\n#name-text[data-v-1f42fb90]{\n    color: white;\n  position: relative;\n  bottom: 40vh;\n  font-size: 20px;\n  font-family: 'Montserrat', sans-serif;\n}\n#name[data-v-1f42fb90]:hover {\n  color: #cc034d;\n}\n#link1[data-v-1f42fb90],\n#link2[data-v-1f42fb90],\n#link3[data-v-1f42fb90],\n#link4[data-v-1f42fb90] {\n  color: white;\n  margin-right: 10px;\n}\n#link1[data-v-1f42fb90]:hover,\n#link2[data-v-1f42fb90]:hover,\n#link3[data-v-1f42fb90]:hover,\n#link4[data-v-1f42fb90]:hover {\n  background-image: linear-gradient(45deg, #022f5a, #cc034d);\n}\n#top-accent[data-v-1f42fb90] {\n  position: absolute;\n  width: 100%;\n  height: 1vh;\n  background-image: linear-gradient(45deg, #022f5a, #cc034d);\n}\n#head-links[data-v-1f42fb90] {\n  left: 20vh;\n}\n#avatar[data-v-1f42fb90] {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  left: 650px;\n  top: 30vh;\n}\n#avatar-bg[data-v-1f42fb90] {\n  position: absolute;\n  width: 210px;\n  height: 210px;\n  border-radius: 50%;\n  background-image: linear-gradient(45deg, #022f5a, #cc034d);\n  left: 43vw;\n  top: 30vh;\n}\n#header-bg[data-v-1f42fb90] {\n  width: 100%;\n  height: 100vh;\n}\n.arrow[data-v-1f42fb90] {\n  position: absolute;\n  top: 92%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.arrow span[data-v-1f42fb90] {\n  display: block;\n  width: 30px;\n  height: 30px;\n  border-bottom: 5px solid white;\n  border-right: 5px solid white;\n  transform: rotate(45deg);\n  margin: -10px;\n  -webkit-animation: animate-data-v-1f42fb90 2s infinite;\n          animation: animate-data-v-1f42fb90 2s infinite;\n}\n.arrow span[data-v-1f42fb90]:nth-child(2) {\n  -webkit-animation-delay: -0.2s;\n          animation-delay: -0.2s;\n}\n.arrow span[data-v-1f42fb90]:nth-child(3) {\n  -webkit-animation-delay: -0.4s;\n          animation-delay: -0.4s;\n}\n@-webkit-keyframes animate-data-v-1f42fb90 {\n0% {\n    opacity: 0;\n    transform: rotate(45deg) translate(-20px, -20px);\n}\n50% {\n    opacity: 1;\n}\n100% {\n    opacity: 0;\n    transform: rotate(45deg) translate(20px, 20px);\n}\n}\n@keyframes animate-data-v-1f42fb90 {\n0% {\n    opacity: 0;\n    transform: rotate(45deg) translate(-20px, -20px);\n}\n50% {\n    opacity: 1;\n}\n100% {\n    opacity: 0;\n    transform: rotate(45deg) translate(20px, 20px);\n}\n}\n@media only screen and (max-width: 768px) {\n#avatar[data-v-1f42fb90]{\n    left: 30vw;\n}\n#avatar-bg[data-v-1f42fb90]{\n    opacity: 0.0;\n}\n}\n", ""]);
+exports.push([module.i, "\n*[data-v-1f42fb90] {\n  padding: 0;\n  margin: 0;\n}\n.button[data-v-1f42fb90] {\n    position: relative;\n    left: 45vw;\n  border: none;\n  color: white;\n  padding: 16px 32px;\n  text-align: center;\n  display: inline-block;\n  font-size: 16px;\n  transition-duration: 0.4s;\n  cursor: pointer;\n}\n.button1[data-v-1f42fb90] {\n  background-color: #1C1A19;\n  color: lightgray;\n  border: 2px solid lightgray;\n  margin-bottom: 200px;\n}\n.button1[data-v-1f42fb90]:hover {\n  background-color: lightgray;\n  color: #1C1A19;\n}\n#welcome[data-v-1f42fb90]{\n    color: lightgray;\n    font-size: 40px;\n    letter-spacing: 4px;\n    font-family: 'Playfair Display', serif;\n}\n#welcome-text[data-v-1f42fb90], #contact-text[data-v-1f42fb90]{\n    color: lightgrey;\n    font-size: 15px;\n    font-family: 'Montserrat', sans-serif;\n}\n#goldBreak[data-v-1f42fb90] {\n    position: relative;\n    color:#D4B156;\n    width: 10vw;\n    font-size: 3vh;\n    left: 44rem;\n}\n#name[data-v-1f42fb90] {\n  color: lightgray;\n  position: relative;\n  bottom: 40vh;\n  font-size: 40px;\n  letter-spacing: 4px;\n  font-family: 'Playfair Display', serif;\n}\n#name-text[data-v-1f42fb90]{\n    color: lightgray;\n  position: relative;\n  bottom: 40vh;\n  font-size: 15px;\n  font-family: 'Montserrat', sans-serif;\n}\n#name[data-v-1f42fb90]:hover {\n  color: #cc034d;\n}\n#link1[data-v-1f42fb90],\n#link2[data-v-1f42fb90],\n#link3[data-v-1f42fb90],\n#link4[data-v-1f42fb90] {\n  color: white;\n  margin-right: 10px;\n}\n#link1[data-v-1f42fb90]:hover,\n#link2[data-v-1f42fb90]:hover,\n#link3[data-v-1f42fb90]:hover,\n#link4[data-v-1f42fb90]:hover {\n  background-color:#D4B156;\n}\n#top-accent[data-v-1f42fb90] {\n  position: absolute;\n  width: 100%;\n  height: 1vh;\n  background-color: #D4B156;\n}\n#head-links[data-v-1f42fb90] {\n  left: 20vh;\n}\n#avatar[data-v-1f42fb90] {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  left: 650px;\n  top: 30vh;\n}\n#avatar-bg[data-v-1f42fb90] {\n  position: absolute;\n  width: 210px;\n  height: 210px;\n  border-radius: 50%;\n  background-color: #D4B156;\n  left: 43vw;\n  top: 30vh;\n}\n#header-bg[data-v-1f42fb90] {\n  width: 100%;\n  height: 100vh;\n}\n.arrow[data-v-1f42fb90] {\n  position: absolute;\n  top: 92%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.arrow span[data-v-1f42fb90] {\n  display: block;\n  width: 30px;\n  height: 30px;\n  border-bottom: 5px solid white;\n  border-right: 5px solid white;\n  transform: rotate(45deg);\n  margin: -10px;\n  -webkit-animation: animate-data-v-1f42fb90 2s infinite;\n          animation: animate-data-v-1f42fb90 2s infinite;\n}\n.arrow span[data-v-1f42fb90]:nth-child(2) {\n  -webkit-animation-delay: -0.2s;\n          animation-delay: -0.2s;\n}\n.arrow span[data-v-1f42fb90]:nth-child(3) {\n  -webkit-animation-delay: -0.4s;\n          animation-delay: -0.4s;\n}\n@-webkit-keyframes animate-data-v-1f42fb90 {\n0% {\n    opacity: 0;\n    transform: rotate(45deg) translate(-20px, -20px);\n}\n50% {\n    opacity: 1;\n}\n100% {\n    opacity: 0;\n    transform: rotate(45deg) translate(20px, 20px);\n}\n}\n@keyframes animate-data-v-1f42fb90 {\n0% {\n    opacity: 0;\n    transform: rotate(45deg) translate(-20px, -20px);\n}\n50% {\n    opacity: 1;\n}\n100% {\n    opacity: 0;\n    transform: rotate(45deg) translate(20px, 20px);\n}\n}\n@media only screen and (max-width: 768px) {\n#avatar[data-v-1f42fb90]{\n    left: 30vw;\n}\n#avatar-bg[data-v-1f42fb90]{\n    opacity: 0.0;\n}\n}\n", ""]);
 
 // exports
 
@@ -38408,7 +38421,7 @@ var staticRenderFns = [
               "a",
               {
                 staticClass: "col l1 center-align",
-                attrs: { href: "#projects", id: "link1" }
+                attrs: { href: "#goldBreak", id: "link1" }
               },
               [_vm._v("My Work")]
             ),
@@ -38457,10 +38470,12 @@ var staticRenderFns = [
           [_vm._v("\n        HI! I'M HAILEY FOSS")]
         ),
         _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
         _c(
           "p",
           { staticClass: "col l12 center-align", attrs: { id: "name-text" } },
-          [_vm._v("| junior full stack web developer |")]
+          [_vm._v("| junior full-stack web developer |")]
         ),
         _vm._v(" "),
         _c("div", [
@@ -38485,16 +38500,49 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", [
-          _c("p", [
-            _vm._v(
-              "I am a passionate Junior Web Developer with InnoTech degree in Web\n      Development and one year of experience in challenging\n      development environments.\n      "
-            ),
-            _c("br"),
-            _vm._v(
-              "With over thirteen years of editng and design practice will aid in creating dynamic frontend web design"
-            )
-          ])
-        ])
+          _c("br"),
+          _vm._v(" "),
+          _c(
+            "p",
+            { staticClass: "col l12 center-align", attrs: { id: "welcome" } },
+            [_vm._v("WELCOME")]
+          ),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c(
+            "p",
+            {
+              staticClass: "col l12 center-align",
+              attrs: { id: "welcome-text" }
+            },
+            [
+              _vm._v(
+                "\n            I am a passionate web developer with a year of working in a challenging enviornment at Innotech\n            college where I obtained a my degree.\n            "
+              ),
+              _c("br"),
+              _vm._v(
+                "\n            Apart from my growing interest in development I have a background in design, photography\n            and over thirteen years of video production and editing experience.\n            "
+              ),
+              _c("br"),
+              _vm._v(
+                "\n            I am seeking opportunity to use each skillset to create engaging and emotive websites.\n            "
+              ),
+              _c("br"),
+              _vm._v(
+                "\n            Drop me a line and lets chat about your project!"
+              )
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c(
+          "button",
+          { staticClass: "button button1", attrs: { href: "#contact" } },
+          [_vm._v("Contact Me")]
+        )
       ])
     ])
   }
@@ -38569,125 +38617,6 @@ var staticRenderFns = [
           attrs: { id: "projects" }
         },
         [_vm._v("Projects")]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "row", attrs: { "data-aos": "fade-up" } }, [
-        _c("div", { staticClass: "col s12 m6 center-align" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-image" }, [
-              _c("img", {
-                attrs: {
-                  src:
-                    "https://66.media.tumblr.com/903b3d9e43abd9abc9dd1320ed447173/9bca164bfb878a80-0d/s640x960/744ba3c3e02f0e3bee782d9ace003cfe6a7fe1ca.gif"
-                }
-              }),
-              _vm._v(" "),
-              _c("span", { staticClass: "card-title" }, [
-                _vm._v("Elk and Wolf")
-              ]),
-              _vm._v(" "),
-              _c(
-                "a",
-                {
-                  staticClass:
-                    "btn-floating halfway-fab waves-effect waves-light red",
-                  attrs: { href: "https://github.com/xeclectic/elk-wolf" }
-                },
-                [_c("i", { staticClass: "material-icons" }, [_vm._v("search")])]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-content" }, [
-              _c("p", [_vm._v("| Vue.JS | Laravel | HTML | CSS | PHP |")])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "col s12 m6 center-align",
-            attrs: { "data-aos": "fade-up" }
-          },
-          [
-            _c("div", { staticClass: "card" }, [
-              _c("div", { staticClass: "card-image" }, [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "https://66.media.tumblr.com/aa881c2b46c8ec9038ec9d26c599783f/e6e8a06417aa408d-c9/s540x810/325be22c373633a06cebbf0822fa422bd49eb48f.gif"
-                  }
-                }),
-                _vm._v(" "),
-                _c("span", { staticClass: "card-title" }, [_vm._v("The Trek")]),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    staticClass:
-                      "btn-floating halfway-fab waves-effect waves-light red",
-                    attrs: { href: "https://github.com/xeclectic/TweeterTwo" }
-                  },
-                  [
-                    _c("i", { staticClass: "material-icons" }, [
-                      _vm._v("search")
-                    ])
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-content" }, [
-                _c("p", [_vm._v("| Vue.JS | Laravel | HTML | CSS | PHP |")])
-              ])
-            ])
-          ]
-        )
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "row",
-          attrs: { "data-aos": "fade-up", id: "single-card" }
-        },
-        [
-          _c("div", { staticClass: "col s12 m6 center-align" }, [
-            _c("div", { staticClass: "card" }, [
-              _c("div", { staticClass: "card-image" }, [
-                _c("img", {
-                  attrs: {
-                    src:
-                      "https://66.media.tumblr.com/a60c4b735777ce398d6ade29829c6642/9bca164bfb878a80-50/s640x960/aaefe4a9682f4d98500d8610191cf64e91a43cab.gif"
-                  }
-                }),
-                _vm._v(" "),
-                _c("span", { staticClass: "card-title" }, [
-                  _vm._v("Okotoks Pizza")
-                ]),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    staticClass:
-                      "btn-floating halfway-fab waves-effect waves-light red",
-                    attrs: {
-                      href: "https://zealous-lichterman-e11483.netlify.app/"
-                    }
-                  },
-                  [
-                    _c("i", { staticClass: "material-icons" }, [
-                      _vm._v("search")
-                    ])
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-content" }, [
-                _c("p", [_vm._v("| HTML | SCSS |")])
-              ])
-            ])
-          ])
-        ]
       )
     ])
   }

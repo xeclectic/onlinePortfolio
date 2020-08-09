@@ -2,7 +2,9 @@
   <div>
     <p id="projects" class="col s12 m12 l12 center-align">Projects</p>
 
-    <div data-aos="fade-up" class="row">
+</div>
+
+    <!-- <div data-aos="fade-up" class="row">
       <div class="col s12 m6 center-align">
         <div class="card">
           <div class="card-image">
@@ -64,7 +66,7 @@
         </div>
       </div>
     </div>
-    </div>
+    </div> -->
 
 </template>
 
