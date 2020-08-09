@@ -1928,6 +1928,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Footer"
 });
@@ -6571,7 +6572,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#gold[data-v-61a7c374] {\n  color: #d4b156;\n  margin-bottom: 50px;\n}\n#contact[data-v-61a7c374] {\n  color: lightgray;\n  font-size: 40px;\n  letter-spacing: 6px;\n  font-family: \"Playfair Display\", serif;\n  margin-bottom: 100px;\n}\n.contact-text[data-v-61a7c374] {\n  color: lightgray;\n  font-size: 15px;\n  font-family: \"Montserrat\", sans-serif;\n}\n.button[data-v-61a7c374] {\n    position: relative;\n    left: 45vw;\n  border: none;\n  color: lightgray;\n  padding: 16px 32px;\n  text-align: center;\n  display: inline-block;\n  font-size: 16px;\n  transition-duration: 0.4s;\n  cursor: pointer;\n}\n.button1[data-v-61a7c374] {\n  background-color: #1C1A19;\n  color: lightgrey;\n  border: 2px solid #d4b156;\n  margin-bottom: 50px;\n}\n.button1[data-v-61a7c374]:hover {\n  background-color: #d4b156;\n  color: #1C1A19;\n}\n#footer-bg[data-v-61a7c374]{\n    width: 98.5vw;\n    height: 15vh;\n}\n", ""]);
+exports.push([module.i, "\n#gold[data-v-61a7c374] {\n  color: #d4b156;\n  margin-bottom: 50px;\n}\n#contact[data-v-61a7c374] {\n  color: lightgray;\n  font-size: 40px;\n  letter-spacing: 6px;\n  font-family: \"Playfair Display\", serif;\n  margin-bottom: 100px;\n}\n.contact-text[data-v-61a7c374] {\n  color: lightgray;\n  font-size: 15px;\n  font-family: \"Montserrat\", sans-serif;\n}\n.button[data-v-61a7c374] {\n    position: relative;\n  border: none;\n  color: lightgray;\n  padding: 16px 32px;\n  display: inline-block;\n  font-size: 16px;\n  transition-duration: 0.4s;\n  cursor: pointer;\n}\n.button1[data-v-61a7c374] {\n  background-color: #1C1A19;\n  color: lightgrey;\n  border: 2px solid #d4b156;\n  margin-bottom: 50px;\n}\n.button1[data-v-61a7c374]:hover {\n  background-color: #d4b156;\n  color: #1C1A19;\n}\n#footer-bg[data-v-61a7c374]{\n    width: 98.5vw;\n    height: 15vh;\n}\n", ""]);
 
 // exports
 
@@ -38423,7 +38424,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("div", [
+      _c("div", { staticClass: "col l12 center-align" }, [
         _c(
           "div",
           { staticClass: "col l12 center-align", attrs: { id: "gold" } },
@@ -38495,6 +38496,20 @@ var staticRenderFns = [
               "____________________________________________________________________"
             )
           ]
+        ),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "col l12 center-align",
+          attrs: { src: "https://img.icons8.com/fluent/96/000000/github.png" }
+        }),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "contact-text col l12 center-align",
+            attrs: { href: "https://github.com/xeclectic" }
+          },
+          [_vm._v(" GitHub")]
         )
       ]),
       _vm._v(" "),
