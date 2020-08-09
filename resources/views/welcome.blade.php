@@ -16,6 +16,7 @@
             body{
                 margin: 0;
                 padding: 0;
+                background-color: #1C1A19;
             }
             </style>
 
@@ -32,6 +33,3 @@
             AOS.init();
           </script>
 
-
-
-</html>
