@@ -2118,6 +2118,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "mainContent"
 });
@@ -6566,7 +6569,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n*[data-v-1f42fb90] {\n  padding: 0;\n  margin: 0;\n}\n.button[data-v-1f42fb90] {\n    position: relative;\n    left: 45vw;\n  border: none;\n  color: white;\n  padding: 16px 32px;\n  text-align: center;\n  display: inline-block;\n  font-size: 16px;\n  transition-duration: 0.4s;\n  cursor: pointer;\n}\n.button1[data-v-1f42fb90] {\n  background-color: #1C1A19;\n  color: lightgray;\n  border: 2px solid lightgray;\n  margin-bottom: 200px;\n}\n.button1[data-v-1f42fb90]:hover {\n  background-color: lightgray;\n  color: #1C1A19;\n}\n#welcome[data-v-1f42fb90]{\n    color: lightgray;\n    font-size: 40px;\n    letter-spacing: 4px;\n    font-family: 'Playfair Display', serif;\n}\n#welcome-text[data-v-1f42fb90], #contact-text[data-v-1f42fb90]{\n    color: lightgrey;\n    font-size: 15px;\n    font-family: 'Montserrat', sans-serif;\n}\n#goldBreak[data-v-1f42fb90] {\n    position: relative;\n    color:#D4B156;\n    width: 10vw;\n    font-size: 3vh;\n    left: 44rem;\n}\n#name[data-v-1f42fb90] {\n  color: lightgray;\n  position: relative;\n  bottom: 40vh;\n  font-size: 40px;\n  letter-spacing: 4px;\n  font-family: 'Playfair Display', serif;\n}\n#name-text[data-v-1f42fb90]{\n    color: lightgray;\n  position: relative;\n  bottom: 40vh;\n  font-size: 15px;\n  font-family: 'Montserrat', sans-serif;\n}\n#name[data-v-1f42fb90]:hover {\n  color: #cc034d;\n}\n#link1[data-v-1f42fb90],\n#link2[data-v-1f42fb90],\n#link3[data-v-1f42fb90],\n#link4[data-v-1f42fb90] {\n  color: white;\n  margin-right: 10px;\n}\n#link1[data-v-1f42fb90]:hover,\n#link2[data-v-1f42fb90]:hover,\n#link3[data-v-1f42fb90]:hover,\n#link4[data-v-1f42fb90]:hover {\n  background-color:#D4B156;\n}\n#top-accent[data-v-1f42fb90] {\n  position: absolute;\n  width: 100%;\n  height: 1vh;\n  background-color: #D4B156;\n}\n#head-links[data-v-1f42fb90] {\n  left: 20vh;\n}\n#avatar[data-v-1f42fb90] {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  left: 650px;\n  top: 30vh;\n}\n#avatar-bg[data-v-1f42fb90] {\n  position: absolute;\n  width: 210px;\n  height: 210px;\n  border-radius: 50%;\n  background-color: #D4B156;\n  left: 43vw;\n  top: 30vh;\n}\n#header-bg[data-v-1f42fb90] {\n  width: 100%;\n  height: 100vh;\n}\n.arrow[data-v-1f42fb90] {\n  position: absolute;\n  top: 92%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.arrow span[data-v-1f42fb90] {\n  display: block;\n  width: 30px;\n  height: 30px;\n  border-bottom: 5px solid white;\n  border-right: 5px solid white;\n  transform: rotate(45deg);\n  margin: -10px;\n  -webkit-animation: animate-data-v-1f42fb90 2s infinite;\n          animation: animate-data-v-1f42fb90 2s infinite;\n}\n.arrow span[data-v-1f42fb90]:nth-child(2) {\n  -webkit-animation-delay: -0.2s;\n          animation-delay: -0.2s;\n}\n.arrow span[data-v-1f42fb90]:nth-child(3) {\n  -webkit-animation-delay: -0.4s;\n          animation-delay: -0.4s;\n}\n@-webkit-keyframes animate-data-v-1f42fb90 {\n0% {\n    opacity: 0;\n    transform: rotate(45deg) translate(-20px, -20px);\n}\n50% {\n    opacity: 1;\n}\n100% {\n    opacity: 0;\n    transform: rotate(45deg) translate(20px, 20px);\n}\n}\n@keyframes animate-data-v-1f42fb90 {\n0% {\n    opacity: 0;\n    transform: rotate(45deg) translate(-20px, -20px);\n}\n50% {\n    opacity: 1;\n}\n100% {\n    opacity: 0;\n    transform: rotate(45deg) translate(20px, 20px);\n}\n}\n@media only screen and (max-width: 768px) {\n#avatar[data-v-1f42fb90]{\n    left: 30vw;\n}\n#avatar-bg[data-v-1f42fb90]{\n    opacity: 0.0;\n}\n}\n", ""]);
+exports.push([module.i, "\n*[data-v-1f42fb90] {\n  padding: 0;\n  margin: 0;\n}\n.button[data-v-1f42fb90] {\n    position: relative;\n    left: 45vw;\n  border: none;\n  color: white;\n  padding: 16px 32px;\n  text-align: center;\n  display: inline-block;\n  font-size: 16px;\n  transition-duration: 0.4s;\n  cursor: pointer;\n}\n.button1[data-v-1f42fb90] {\n  background-color: #1C1A19;\n  color: lightgray;\n  border: 2px solid lightgray;\n  margin-bottom: 200px;\n}\n.button1[data-v-1f42fb90]:hover {\n  background-color: lightgray;\n  color: #1C1A19;\n}\n#welcome[data-v-1f42fb90]{\n    color: lightgray;\n    font-size: 40px;\n    letter-spacing: 4px;\n    font-family: 'Playfair Display', serif;\n}\n#welcome-text[data-v-1f42fb90], #contact-text[data-v-1f42fb90]{\n    color: lightgrey;\n    font-size: 15px;\n    font-family: 'Montserrat', sans-serif;\n}\n#goldBreak[data-v-1f42fb90] {\n    position: relative;\n    color:#D4B156;\n    width: 10vw;\n    font-size: 3vh;\n    left: 44rem;\n}\n#name[data-v-1f42fb90] {\n  color: lightgray;\n  position: relative;\n  bottom: 40vh;\n  font-size: 40px;\n  letter-spacing: 4px;\n  font-family: 'Playfair Display', serif;\n}\n#name-text[data-v-1f42fb90]{\n    color: lightgray;\n  position: relative;\n  bottom: 40vh;\n  font-size: 15px;\n  font-family: 'Montserrat', sans-serif;\n}\n#link1[data-v-1f42fb90],\n#link2[data-v-1f42fb90],\n#link3[data-v-1f42fb90],\n#link4[data-v-1f42fb90] {\n  color: white;\n  margin-right: 10px;\n}\n#link1[data-v-1f42fb90]:hover,\n#link2[data-v-1f42fb90]:hover,\n#link3[data-v-1f42fb90]:hover,\n#link4[data-v-1f42fb90]:hover {\n  background-color:#D4B156;\n}\n#top-accent[data-v-1f42fb90] {\n  position: absolute;\n  width: 100%;\n  height: 1vh;\n  background-color: #D4B156;\n}\n#head-links[data-v-1f42fb90] {\n  left: 20vh;\n}\n#avatar[data-v-1f42fb90] {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  left: 650px;\n  top: 30vh;\n}\n#avatar-bg[data-v-1f42fb90] {\n  position: absolute;\n  width: 210px;\n  height: 210px;\n  border-radius: 50%;\n  background-color: #D4B156;\n  left: 43vw;\n  top: 30vh;\n}\n#header-bg[data-v-1f42fb90] {\n  width: 100%;\n  height: 100vh;\n}\n.arrow[data-v-1f42fb90] {\n  position: absolute;\n  top: 92%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.arrow span[data-v-1f42fb90] {\n  display: block;\n  width: 30px;\n  height: 30px;\n  border-bottom: 5px solid white;\n  border-right: 5px solid white;\n  transform: rotate(45deg);\n  margin: -10px;\n  -webkit-animation: animate-data-v-1f42fb90 2s infinite;\n          animation: animate-data-v-1f42fb90 2s infinite;\n}\n.arrow span[data-v-1f42fb90]:nth-child(2) {\n  -webkit-animation-delay: -0.2s;\n          animation-delay: -0.2s;\n}\n.arrow span[data-v-1f42fb90]:nth-child(3) {\n  -webkit-animation-delay: -0.4s;\n          animation-delay: -0.4s;\n}\n@-webkit-keyframes animate-data-v-1f42fb90 {\n0% {\n    opacity: 0;\n    transform: rotate(45deg) translate(-20px, -20px);\n}\n50% {\n    opacity: 1;\n}\n100% {\n    opacity: 0;\n    transform: rotate(45deg) translate(20px, 20px);\n}\n}\n@keyframes animate-data-v-1f42fb90 {\n0% {\n    opacity: 0;\n    transform: rotate(45deg) translate(-20px, -20px);\n}\n50% {\n    opacity: 1;\n}\n100% {\n    opacity: 0;\n    transform: rotate(45deg) translate(20px, 20px);\n}\n}\n@media only screen and (max-width: 768px) {\n#avatar[data-v-1f42fb90]{\n    left: 30vw;\n}\n#avatar-bg[data-v-1f42fb90]{\n    opacity: 0.0;\n}\n}\n", ""]);
 
 // exports
 
@@ -6585,7 +6588,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#single-card[data-v-6bc89785] {\n  position: relative;\n}\n#bg[data-v-6bc89785] {\n  position: relative;\n  width: 100%;\n  bottom: 60vh;\n}\n", ""]);
+exports.push([module.i, "\n.card1[data-v-6bc89785] {\n        width: 600px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/6e23bba377e6d5b9e7d6061f8303c99b/d7887fb3e9a3df3c-d2/s1280x1920/e06ccdb58015253e55172835bc12d2f49583953a.png\") no-repeat;\n        background-size: 600px 445px;\n}\n.card1[data-v-6bc89785]:hover {\n        background: url(\"https://64.media.tumblr.com/903b3d9e43abd9abc9dd1320ed447173/9bca164bfb878a80-0d/s640x960/744ba3c3e02f0e3bee782d9ace003cfe6a7fe1ca.gifv\") no-repeat;\n}\n.card2[data-v-6bc89785] {\n        width: 600px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/c98f6ee79c649dae9af444fba5c116e9/d7887fb3e9a3df3c-2e/s1280x1920/41f1d9b40d8057829f39adb1eaff0498681e598f.png\") no-repeat;\n        background-size: 600px 445px;\n}\n.card2[data-v-6bc89785]:hover {\n        background: url(\"https://64.media.tumblr.com/aa881c2b46c8ec9038ec9d26c599783f/e6e8a06417aa408d-c9/s540x810/325be22c373633a06cebbf0822fa422bd49eb48f.gifv\") no-repeat;\n}\n.card3[data-v-6bc89785] {\n        width: 600px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/fc4541ec2a1904b6acc3153d161a10b8/d7887fb3e9a3df3c-22/s1280x1920/f233fa7b8b59e78f87477b85807f12f6aec6d151.png\") no-repeat;\n        background-size: 600px 445px;\n}\n.card3[data-v-6bc89785]:hover {\n        background: url(\"https://64.media.tumblr.com/a60c4b735777ce398d6ade29829c6642/9bca164bfb878a80-50/s640x960/aaefe4a9682f4d98500d8610191cf64e91a43cab.gifv\") no-repeat;\n}\n.card4[data-v-6bc89785] {\n        width: 600px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/c98f6ee79c649dae9af444fba5c116e9/d7887fb3e9a3df3c-2e/s1280x1920/41f1d9b40d8057829f39adb1eaff0498681e598f.png\") no-repeat;\n        background-size: 600px 445px;\n}\n", ""]);
 
 // exports
 
@@ -38460,7 +38463,7 @@ var staticRenderFns = [
           attrs: {
             id: "header-bg",
             src:
-              "https://i.pinimg.com/originals/d2/2f/95/d22f95ac7ea5f78ae39169cfdb77aa8a.jpg"
+              "https://64.media.tumblr.com/eb9d486478217382f8dd7e9906c117f8/ffdb3a6ffe4e1243-62/s1280x1920/5b848d4725d802706ba496bcf052ffcbbf3bb7d1.jpg"
           }
         }),
         _vm._v(" "),
@@ -38616,8 +38619,16 @@ var staticRenderFns = [
           staticClass: "col s12 m12 l12 center-align",
           attrs: { id: "projects" }
         },
-        [_vm._v("Projects")]
-      )
+        [_vm._v("Projts")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "card1" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "card2" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "card3" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "card4" })
     ])
   }
 ]

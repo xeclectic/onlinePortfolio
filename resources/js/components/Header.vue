@@ -20,7 +20,7 @@
       />
       <img
         id="header-bg"
-        src="https://i.pinimg.com/originals/d2/2f/95/d22f95ac7ea5f78ae39169cfdb77aa8a.jpg"
+        src="https://64.media.tumblr.com/eb9d486478217382f8dd7e9906c117f8/ffdb3a6ffe4e1243-62/s1280x1920/5b848d4725d802706ba496bcf052ffcbbf3bb7d1.jpg"
       />
 
     <!-- Name Text -->
@@ -134,9 +134,6 @@ export default {
   font-family: 'Montserrat', sans-serif;
 }
 
-#name:hover {
-  color: #cc034d;
-}
 #link1,
 #link2,
 #link3,
