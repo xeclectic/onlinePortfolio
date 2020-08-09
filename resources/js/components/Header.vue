@@ -14,11 +14,11 @@
       <div id="avatar-bg"></div>
 
     <!-- Header Background -->
-      <img
+      <img class="img-fluid" alt="Responsive image"
         id="avatar"
         src="https://66.media.tumblr.com/b48361b922751a12e4c3acf29fa62ffe/d5ee1569c5b8213c-d3/s540x810/636aadd979179ea52e24ebfab80fb88246ab9567.jpg"
       />
-      <img
+      <img class="img-fluid" alt="Responsive image"
         id="header-bg"
         src="https://64.media.tumblr.com/eb9d486478217382f8dd7e9906c117f8/ffdb3a6ffe4e1243-62/s1280x1920/5b848d4725d802706ba496bcf052ffcbbf3bb7d1.jpg"
       />

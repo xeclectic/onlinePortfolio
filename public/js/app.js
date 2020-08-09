@@ -2057,70 +2057,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "mainContent"
 });
@@ -6588,7 +6524,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.card1[data-v-6bc89785] {\n        width: 600px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/6e23bba377e6d5b9e7d6061f8303c99b/d7887fb3e9a3df3c-d2/s1280x1920/e06ccdb58015253e55172835bc12d2f49583953a.png\") no-repeat;\n        background-size: 600px 445px;\n}\n.card1[data-v-6bc89785]:hover {\n        background: url(\"https://64.media.tumblr.com/903b3d9e43abd9abc9dd1320ed447173/9bca164bfb878a80-0d/s640x960/744ba3c3e02f0e3bee782d9ace003cfe6a7fe1ca.gifv\") no-repeat;\n}\n.card2[data-v-6bc89785] {\n        width: 600px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/c98f6ee79c649dae9af444fba5c116e9/d7887fb3e9a3df3c-2e/s1280x1920/41f1d9b40d8057829f39adb1eaff0498681e598f.png\") no-repeat;\n        background-size: 600px 445px;\n}\n.card2[data-v-6bc89785]:hover {\n        background: url(\"https://64.media.tumblr.com/aa881c2b46c8ec9038ec9d26c599783f/e6e8a06417aa408d-c9/s540x810/325be22c373633a06cebbf0822fa422bd49eb48f.gifv\") no-repeat;\n}\n.card3[data-v-6bc89785] {\n        width: 600px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/fc4541ec2a1904b6acc3153d161a10b8/d7887fb3e9a3df3c-22/s1280x1920/f233fa7b8b59e78f87477b85807f12f6aec6d151.png\") no-repeat;\n        background-size: 600px 445px;\n}\n.card3[data-v-6bc89785]:hover {\n        background: url(\"https://64.media.tumblr.com/a60c4b735777ce398d6ade29829c6642/9bca164bfb878a80-50/s640x960/aaefe4a9682f4d98500d8610191cf64e91a43cab.gifv\") no-repeat;\n}\n.card4[data-v-6bc89785] {\n        width: 600px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/c98f6ee79c649dae9af444fba5c116e9/d7887fb3e9a3df3c-2e/s1280x1920/41f1d9b40d8057829f39adb1eaff0498681e598f.png\") no-repeat;\n        background-size: 600px 445px;\n}\n", ""]);
+exports.push([module.i, "\n.wrapper[data-v-6bc89785] {\n        display: grid;\n    grid-gap: 270px;\n        grid-template-columns: repeat(auto-fill, 100px ) ;\n}\n.card[data-v-6bc89785] {\n        font-size: 150%;\n}\n.a[data-v-6bc89785] {\n        grid-column: 1 / 3;\n        width: 740px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/8f331196c04be85b70582742b183f0dd/7a178890964a5f2f-43/s1280x1920/d4ed3bf57f43b1311ee5b5ae75932b41453b3cf8.jpg\") no-repeat;\n        background-size: 740px 445px;\n}\n.a[data-v-6bc89785]:hover {\n        background: url(\"https://i.imgur.com/m9wqM0v.jpg\") no-repeat;\n        background-size: 740px 445px;\n}\n.b[data-v-6bc89785] {\n        grid-column: 3 / 5 ;\n        width: 742px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/828526730a20ea1d67b7faab59b0f669/7a178890964a5f2f-ab/s1280x1920/bbff0e5edee7ffd8827f3f2a5c85874670b31829.jpg\") no-repeat;\n        background-size: 742px 445px;\n}\n.b[data-v-6bc89785]:hover {\n        background: url(\"https://64.media.tumblr.com/aa881c2b46c8ec9038ec9d26c599783f/e6e8a06417aa408d-c9/s540x810/325be22c373633a06cebbf0822fa422bd49eb48f.gifv\") no-repeat;\n        background-size: 742px 445px;\n}\n.c[data-v-6bc89785] {\n            bottom: 300px;\n        grid-column: 1 / 3;\n        width: 740px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/c211c04233f5d1d0d2ef701b36853aca/7a178890964a5f2f-f5/s1280x1920/b8a78319027158d987635f73d74fe04f103837fd.jpg\") no-repeat;\n        background-size: 740px 445px;\n}\n.c[data-v-6bc89785]:hover {\n        background: url(\"https://64.media.tumblr.com/903b3d9e43abd9abc9dd1320ed447173/9bca164bfb878a80-0d/s640x960/744ba3c3e02f0e3bee782d9ace003cfe6a7fe1ca.gifv\") no-repeat;\n        background-size: 740px 445px;\n}\n.d[data-v-6bc89785] {\n        bottom: 300px;\n        grid-column: 3 / 5 ;\n        width: 742px;\n        height: 445px;\n        background: url(\"https://64.media.tumblr.com/af3512844156c28c28d3b3634b078ff3/7a178890964a5f2f-b1/s1280x1920/691cdc5a7b220f8402bfc394553d205eebc472e7.jpg\") no-repeat;\n        background-size: 742px 445px;\n}\n.d[data-v-6bc89785]:hover {\n        background: url(\"https://64.media.tumblr.com/a60c4b735777ce398d6ade29829c6642/9bca164bfb878a80-50/s640x960/aaefe4a9682f4d98500d8610191cf64e91a43cab.gifv\") no-repeat;\n        background-size: 742px 445px;\n}\n", ""]);
 
 // exports
 
@@ -38452,7 +38388,9 @@ var staticRenderFns = [
         _c("div", { attrs: { id: "avatar-bg" } }),
         _vm._v(" "),
         _c("img", {
+          staticClass: "img-fluid",
           attrs: {
+            alt: "Responsive image",
             id: "avatar",
             src:
               "https://66.media.tumblr.com/b48361b922751a12e4c3acf29fa62ffe/d5ee1569c5b8213c-d3/s540x810/636aadd979179ea52e24ebfab80fb88246ab9567.jpg"
@@ -38460,7 +38398,9 @@ var staticRenderFns = [
         }),
         _vm._v(" "),
         _c("img", {
+          staticClass: "img-fluid",
           attrs: {
+            alt: "Responsive image",
             id: "header-bg",
             src:
               "https://64.media.tumblr.com/eb9d486478217382f8dd7e9906c117f8/ffdb3a6ffe4e1243-62/s1280x1920/5b848d4725d802706ba496bcf052ffcbbf3bb7d1.jpg"
@@ -38613,22 +38553,15 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c(
-        "p",
-        {
-          staticClass: "col s12 m12 l12 center-align",
-          attrs: { id: "projects" }
-        },
-        [_vm._v("Projts")]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "card1" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "card2" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "card3" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "card4" })
+      _c("div", { staticClass: "wrapper" }, [
+        _c("div", { staticClass: "card a" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "card b" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "card c" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "card d" })
+      ])
     ])
   }
 ]
