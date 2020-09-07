@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include 'welcome.blade.php';?>
+    <?php include 'welcome.php';?>
 </body>
 </html>
